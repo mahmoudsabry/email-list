@@ -3,7 +3,7 @@ namespace MS\EmailList;
 
 use Illuminate\Support\ServiceProvider;
 
-class EmailList extends ServiceProvider
+class EmailListServiceProvider extends ServiceProvider
 {
  /**
      * Register any application services.
