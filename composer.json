@@ -3,7 +3,7 @@
     "description": "Sample for repository pattern [Storing email for newsletter]",
     "autoload": {
         "psr-4": {
-            "Ms\\EmailList\\": "src/"
+            "MS\\EmailList\\": "src/"
         }
     },
     "authors": [
