@@ -1,0 +1,28 @@
+{
+    "name": "mahmoudsabry/email-list",
+    "description": "Sample for repository pattern [Storing email for newsletter]",
+    "autoload": {
+        "psr-4": {
+            "Ms\\EmailList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahmoud Sabry",
+            "email": "mhsabry@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MS\\EmailList\\EmailListServiceProvider"
+            ],
+            "aliases": {
+                "EmailList": "MS\\EmailList\\EmailList"
+            }
+        }
+    }
+}
