@@ -3,11 +3,18 @@ namespace MS\EmailList\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class EmailListControlers extends Controller{
+class EmailListControlers extends Controller
+{
 
-function index(){
+    public function __construct()
+    {
 
-    return 'test';
-}
+    }
+
+    public function index()
+    {
+
+        return 'test';
+    }
 
 }

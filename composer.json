@@ -18,7 +18,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MS\\EmailList\\EmailListServiceProvider"
+                "MS\\EmailList\\EmailListServiceProvider",
+                "MS\\EmailList\\RepositoryServiceProvider"
             ],
             "aliases": {
                 "EmailList": "MS\\EmailList\\EmailList"
