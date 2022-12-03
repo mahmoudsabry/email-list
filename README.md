@@ -11,7 +11,7 @@ Install the package
 composer require mahmoudsabry/email-list
 ~~~  
 
-Once the package installed successfully, It is autoloaded to the laravel composer
+Once the package installed successfully, It is autoloaded to the laravel core
 
 Create your Controller 
 
