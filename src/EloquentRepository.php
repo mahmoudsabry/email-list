@@ -96,9 +96,9 @@ class EloquentRepository implements EloquentRepositoryInterface
      * @param int $noOfItems             
      * @return Model
      */
-    public function paginate($input, $noOfItems)
+    public function paginate($noOfItems)
     {
-        return $this->model->filter($input)->paginate($noOfItems);
+        return $this->model->paginate($noOfItems);
     }
 
     function ddMenu($label, $id)

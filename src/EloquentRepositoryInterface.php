@@ -62,12 +62,11 @@ interface EloquentRepositoryInterface
      */
     public function destroy(array $id);
 
-    public function paginate($input,$noOfItems);
+    public function paginate($noOfItems);
 
     public function get();
 
-    public function ddMenu();
+    public function ddMenu($label, $id);
 
-    public function uploadFiles($requestName, $path, $validationRole = "", $oldFile="");
 
 }
